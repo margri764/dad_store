@@ -1,0 +1,314 @@
+
+
+.home{
+    height: 50vw;
+    background-image: url(../../../../../assets/home-picture.png);
+    // background-position: center;
+    // background-size: cover;
+    background-repeat: no-repeat;
+    margin-top: 30px;
+}
+
+.font{
+    font-family: 'awesome';
+    font-size: 5vw;
+    margin-top: 200px;
+    margin-bottom: 60px;
+}
+
+.fontTitles{
+    font-family: 'awesome';
+    font-size: 3vw;
+    color: whitesmoke;
+}
+
+.btn{
+    margin-bottom: 20px;
+    // margin-top:10px;
+    opacity: 0.7;
+    width: 50px;
+    height: 50px;
+    
+    box-shadow: 6px 4px 3px -2px rgba(0,0,0,0.9);
+-webkit-box-shadow: 6px 4px 43px -2px rgba(0,0,0,0.9);
+-moz-box-shadow: 6px 4px 43px -2px rgba(0,0,0,0.9);
+}
+
+.btnLink{
+    color: white;
+    font-family: 'awesome';
+    border-color: white;
+    font-size: 1.3vw;
+    border: 1px solid whitesmoke;
+    background-color: transparent;
+    margin-bottom: 30px;
+    margin-top: 20px;
+    border-radius: 5px;
+    line-height: 2em;
+    cursor: pointer;
+} 
+
+.btnLink:hover{
+    background-color: white;
+    color: black;
+
+}
+
+.wood{
+    height: 400px;
+    background-image: url(../../../../../assets/wood1.png);
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    margin-top: 30px;
+    border-radius: 10px;
+  
+
+}
+
+.wood:hover{
+    height: 400px;
+    background-image: url(../../../../../assets/wood2.png);
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    border-radius: 7px;
+    margin-top: 30px;
+    
+        box-shadow: 6px 4px 43px -2px rgba(0,0,0,0.43);
+    -webkit-box-shadow: 6px 4px 43px -2px rgba(0,0,0,0.43);
+    -moz-box-shadow: 6px 4px 43px -2px rgba(0,0,0,0.43);
+ 
+}
+
+
+.paint{
+    height: 400px;
+    background-image: url(../../../../../assets/paint1.png);
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    margin-top: 30px;
+    border-radius: 10px;
+  
+
+    box-shadow: 6px 4px 43px -2px rgba(0,0,0,0.43);
+-webkit-box-shadow: 6px 4px 43px -2px rgba(0,0,0,0.43);
+-moz-box-shadow: 6px 4px 43px -2px rgba(0,0,0,0.43);
+}
+    
+.paint:hover{
+    height: 400px;
+    background-image: url(../../../../../assets/paint2.png);
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    border-radius: 7px;
+    margin-top: 30px;
+
+}
+
+
+.stencil{
+    height: 400px;
+    background-image: url(../../../../../assets/stencil1.png);
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    margin-top: 30px;
+    border-radius: 10px;
+  
+
+    box-shadow: 6px 4px 43px -2px rgba(0,0,0,0.43);
+-webkit-box-shadow: 6px 4px 43px -2px rgba(0,0,0,0.43);
+-moz-box-shadow: 6px 4px 43px -2px rgba(0,0,0,0.43);
+}
+    
+.stencil:hover{
+    height: 400px;
+    background-image: url(../../../../../assets/stencil2.png);
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    border-radius: 7px;
+    margin-top: 30px;
+
+}
+
+
+
+.back-salmon{
+    height: 400px;
+    // background: rgb(252,220,227);
+    margin-top: 30px;
+    border-radius: 49px;
+    background: linear-gradient(315deg, rgb(252,220,227), #eaafaf);
+    box-shadow:  30px 20px 37px #bebebe,
+    10px 10px 37px #ffffff;
+    
+    box-shadow: 18px 21px 14px -5px rgba(0,0,0,0.15);
+    -webkit-box-shadow: 18px 21px 14px -5px rgba(0,0,0,0.15);
+    -moz-box-shadow: 18px 21px 14px -5px rgba(0,0,0,0.15);
+
+    .fontTitles{
+        color: brown;
+        margin-top: 0px;
+        font-weight: 400;
+    }
+    .btnLink{
+        color: brown;
+        
+    }
+    img{
+        filter: drop-shadow(10px 20px 1px rgba(0,0,0,0.06));
+        transform: scale(1.2);
+        
+    }
+}
+
+.backPurple{
+        height: 400px;
+        margin-top: 30px;
+        border-radius: 49px;
+        background-image: linear-gradient(to right, #fcdcf9, #fedbf2, #ffdbed, #fedce7, #fcdce3);
+
+        box-shadow: 18px 21px 14px -5px rgba(0,0,0,0.15);
+        -webkit-box-shadow: 18px 21px 14px -5px rgba(0,0,0,0.15);
+        -moz-box-shadow: 18px 21px 14px -5px rgba(0,0,0,0.15);
+
+        
+    .fontTitles{
+        color: brown;
+        margin-top: 0px;
+        font-weight: 400;
+    }
+    .btnLink{
+        color: brown;
+        
+    }
+    img{
+        filter: drop-shadow(10px 20px 1px rgba(0,0,0,0.06));
+        transform: scale(1.2);
+    }
+    
+    
+}
+
+.container-main{
+    width: 100vw;
+    height: 100vh;
+    background: #d7bdef;
+    background: radial-gradient(circle farthest-side at center center, #d7bdef 0%, #b49cc4 80%);
+    background: -webkit-radial-gradient(circle farthest-side at center center, #d7bdef 0%, #b49cc4 80%);
+    background: -moz-radial-gradient(circle farthest-side at center center, #d7bdef 0%, #b49cc4 80%);
+}
+
+.white-frame{
+    height: 450px;
+    background-color: white;
+    border-top-left-radius: 40px;
+    border-top-right-radius: 40px;
+
+
+}
+
+.white-frame > .fontTitles{
+    color: black;
+    font-weight: 400;
+}
+
+
+//Extra small devices (phones, 600px and down) */
+@media only screen and (max-width: 575px) {
+
+    .home{
+        height: 60vh;
+        margin-top: 30px;
+    }
+    .btnLink{
+        font-size: 4vw;
+    }
+
+    .fontTitles{
+        font-size: 7vw;
+    }
+
+    .wood{
+        height: 300px;
+        margin-top: 10px;
+    }
+
+    .wood:hover{
+        height: 300px;
+        margin-top: 10px;
+     
+       .fontTitles{
+            font-size: 6vw;
+        }
+    }
+
+    .paint{
+        height: 300px;
+        margin-top: 10px;
+    }
+
+    .paint:hover{
+        height: 300px;
+        margin-top: 10px;
+     
+       .fontTitles{
+            font-size: 6vw;
+        }
+    }
+
+    .stencil{
+        height: 300px;
+        margin-top: 10px;
+    }
+
+    .stencil:hover{
+        height: 300px;
+        margin-top: 10px;
+     
+       .fontTitles{
+            font-size: 6vw;
+        }
+    }
+
+    
+    .font{
+        font-size: 7vw;
+        margin-top: 40px;
+        margin-bottom: 40px;
+    }
+ 
+}
+
+@media only screen and (min-width: 576px) {
+
+}
+    
+
+/* medium devices (tablets, 768 px and up) */ 
+@media only screen and (min-width: 786px) {
+
+}
+    
+
+/* large devices (desktops, 992 px and up) */ 
+@media only screen and (min-width: 992px) {
+
+}
+
+/* x-large devices (desktops, 1200 px and up) */ 
+@media only screen and (min-width: 1200px) {
+    
+
+}
+    
+
+/* XX- Large devices (larger desktops, 1400px and up) */ 
+@media only screen and (min-width: 1400px) {
+
+}
+    
