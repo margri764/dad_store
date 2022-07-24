@@ -2,9 +2,9 @@
 
 .home{
     height: 50vw;
-    background-image: url(../../../../../assets/home-picture.png);
+    background-image: url(../../../../../assets/home-picture2.png);
     // background-position: center;
-    // background-size: cover;
+    background-size: cover;
     background-repeat: no-repeat;
     margin-top: 30px;
 }
@@ -12,8 +12,9 @@
 .font{
     font-family: 'awesome';
     font-size: 5vw;
-    margin-top: 200px;
+    // margin-top: 200px;
     margin-bottom: 60px;
+    color: white;
 }
 
 .fontTitles{
@@ -63,6 +64,9 @@
     margin-top: 30px;
     border-radius: 10px;
   
+    box-shadow: 6px 4px 43px -2px rgba(0,0,0,0.43);
+    -webkit-box-shadow: 6px 4px 43px -2px rgba(0,0,0,0.43);
+    -moz-box-shadow: 6px 4px 43px -2px rgba(0,0,0,0.43);
 
 }
 
@@ -74,11 +78,8 @@
     background-repeat: no-repeat;
     border-radius: 7px;
     margin-top: 30px;
+
     
-        box-shadow: 6px 4px 43px -2px rgba(0,0,0,0.43);
-    -webkit-box-shadow: 6px 4px 43px -2px rgba(0,0,0,0.43);
-    -moz-box-shadow: 6px 4px 43px -2px rgba(0,0,0,0.43);
- 
 }
 
 
@@ -134,6 +135,59 @@
     margin-top: 30px;
 
 }
+
+.mdf-laser{
+    height: 400px;
+    background-image: url(../../../../../assets/mdf-laser1.png);
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    margin-top: 30px;
+    border-radius: 10px;
+  
+
+    box-shadow: 6px 4px 43px -2px rgba(0,0,0,0.43);
+-webkit-box-shadow: 6px 4px 43px -2px rgba(0,0,0,0.43);
+-moz-box-shadow: 6px 4px 43px -2px rgba(0,0,0,0.43);
+}
+    
+.mdf-laser:hover{
+    height: 400px;
+    background-image: url(../../../../../assets/mdf-laser2.png);
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    border-radius: 7px;
+    margin-top: 30px;
+
+}
+
+.art-supplies{
+    height: 400px;
+    background-image: url(../../../../../assets/art-supplies2.png);
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    margin-top: 30px;
+    border-radius: 10px;
+  
+
+    box-shadow: 6px 4px 43px -2px rgba(0,0,0,0.43);
+-webkit-box-shadow: 6px 4px 43px -2px rgba(0,0,0,0.43);
+-moz-box-shadow: 6px 4px 43px -2px rgba(0,0,0,0.43);
+}
+    
+.art-supplies:hover{
+    height: 400px;
+    background-image: url(../../../../../assets/art-supplies1.png);
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    border-radius: 7px;
+    margin-top: 30px;
+
+}
+
 
 
 

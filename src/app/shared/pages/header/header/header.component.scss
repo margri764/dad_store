@@ -1,5 +1,4 @@
 
-
 .logo{
     height: 120px;
     background-image: url(../../../../../assets/logo-header.png);
@@ -9,13 +8,6 @@
     // transform: scale(1);
     // border: 2px solid blue;
 }
-
-.header{
-box-shadow: 2px 5px 5px -2px rgba(0,0,0,0.43);
--webkit-box-shadow: 2px 5px 5px -2px rgba(0,0,0,0.43);
--moz-box-shadow: 2px 5px 5px -2px rgba(0,0,0,0.43);
-}
-
 .underline{
     text-decoration: none;
     transition: all 2s ease 2s;
@@ -28,27 +20,14 @@ box-shadow: 2px 5px 5px -2px rgba(0,0,0,0.43);
     color: rgb(45, 45, 45);
 }
 
-.facebook{
-    height: 30px;
-    cursor: pointer;
-}
-.facebook:hover{
-    color: rgb(93, 26, 26);
-    filter: drop-shadow(0 1px 1px rgba(78, 78, 78, 1.5));
-}
 
-.whatsapp{
-    height: 30px;
-    cursor: pointer;
-}
-.whatsapp:hover{
-    color: rgb(101, 101, 101);
-    filter: drop-shadow(0 1px 1px rgba(78, 78, 78, 1.5));
-}
-
-
-
-
+.header{
+    box-shadow: 2px 5px 5px -2px rgba(0,0,0,0.43);
+    -webkit-box-shadow: 2px 5px 5px -2px rgba(0,0,0,0.43);
+    -moz-box-shadow: 2px 5px 5px -2px rgba(0,0,0,0.43);
+    }
+    
+    
 @media  screen and (max-width: 575px){  
 
     .underline{
